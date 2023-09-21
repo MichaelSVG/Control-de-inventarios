@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: rgb(145, 215, 248);
+}
+
+.div-titulo {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-titulo h1 {
+    font-weight: 300;
+}
+
+.contenedor {
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+}
+
+/* ESTILOS FORMULARIO */
+.contenedor .div-formulario {
+    width: 25%;
+    height: 350px;
+    margin: 15px 15px;
+    background-color: rgb(135, 132, 132);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.contenedor .div-formulario h2 {
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 2em;
+    color: rgb(0, 0, 0);
+}
+
+.contenedor .div-formulario form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor .div-formulario form input,
+.contenedor .div-formulario form button {
+    width: 60%;
+    padding: 10px 10px;
+    margin: 10px 10px;
+}
+
+/* ESTILOS LISTADO */
+.contenedor .div-listado {
+    width: 55%;
+    height: calc(100% - 50px);
+    margin: 15px 15px;
+    background-color: rgb(135, 132, 132);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.contenedor .div-listado h2 {
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 2em;
+    color: whitesmoke;
+}
+
+.contenedor .div-listado .div-empleados {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+    padding: 0 30px;
+}
+
+.contenedor .div-listado .div-empleados p {
+    margin: 10px 0;
+    font-size: 1em;
+    color: #141313;
+}
+
+hr {
+    width: 100%;
+    height: 1px;
+}
+
+.btn {
+    padding: 5px 10px;
+    border: none;
+    margin: 0 5px;
+    border-radius: 50px;
+    color: black;
+
+}
+
+.btn-editar {
+    background-color: green;
+}
+
+.btn-eliminar {
+    background-color: red;
+}/*CSS DE LA BARRA DE NAVEGACION*/
+#menu{
+    background: center;
+    width: 95%;
+    height: 10%;
+    background-color: black ; 
+    padding: 0;
+    font-size: medium;
+}
+#menu ul{
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#menu ul li{
+    display: inline-block;
+}
+#menu ul li a{
+    color: white;
+    display: block;
+    padding: 18px 50px;
+    text-decoration: none;   
+}
+#menu ul li a:hover{
+    background-color: #7B7D7D;
+}#menu img{
+    position: absolute;
+    top: 0.5%;
+    left: 43.5%;
+    min-width: 60px;
+    max-width: 60px;
+    min-height: 60px;
+    max-height: 60px;
+    
+}
+#menu{
+    opacity: 0.8;
+    background-color:rgb(0, 0, 0);
+    box-shadow: 0 0 20px 0 rgb(128, 134, 168);
+    border-radius: 20px;
+    /* animation: backgroundAnimation 600s ease infinite; */
+    border-radius: 20px;
+    border: 0.5px solid #ffffff;
+}
+.div-formulario{
+    position: relative;
+    top: 20%;
+}
